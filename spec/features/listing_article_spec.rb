@@ -1,6 +1,5 @@
 require "rails_helper"
 
-
 RSpec.feature "Creating Artiles" do
   
   before do

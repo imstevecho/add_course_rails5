@@ -1,3 +1,7 @@
+<div class = "new-article">
+  <%= link_to "New Article", new_article_path %>
+</div>
+
 <% if @articles.empty? %>
   <h1 id="no-articles">No Articles Created</h1>
 <% else %>
@@ -12,3 +16,5 @@
     </div>
   <% end %> 
 <% end %>
+
+
